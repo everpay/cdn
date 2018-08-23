@@ -1,9 +1,9 @@
-Auth0 Styleguide
+EverPay Styleguide
 ================
 
-Auth0 Product Style Guide. Works with Component.IO & Bower
+Everpay Product Style Guide. Works with Component.IO & Bower
 
-<img src="https://i.cloudup.com/xJ2BeIkuhR.png" />
+<img src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png" />
 
 ## Add this in your next app
 <pre>
@@ -18,4 +18,4 @@ $ stylus --include-css < index.styl > index.css
 ```
 
 ##### Licence
-All the logos and branding are Auth0's property.
+All the logos and branding are Everpay's property.
