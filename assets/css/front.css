@@ -1447,6 +1447,7 @@ blockquote.blockquote-large {
   right: 0;
   top: 0;
   bottom: 0;
+  background-color: rgba(35, 35, 35, 0.7);
 }
 
 #intro.tp--intro.tp--slider-single .owl-item .item.tp--with-image-dark {
