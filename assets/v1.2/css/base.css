@@ -3201,13 +3201,13 @@ footer .site-footer-links  ul {
     margin: .5em .2em .5em 0;
 }
 
-#footer .btn-icon a {
+.btn-icon a {
     margin-right: 5px;
     background-color: #384453;
     color: #b3b3b3;
 }
 
-#footer .btn-icon {
+.btn-icon {
     display: inline-block;
     text-align: center;
     border-radius: 4px;
@@ -3216,14 +3216,14 @@ footer .site-footer-links  ul {
     line-height: 35px;
 }
 
-#footer.btn-icons a:hover, #footer .btn-icons a:focus, #footer .btn-icons a:active {
+.btn-icons a:hover, .btn-icons a:focus, .btn-icons a:active {
     color: #f1f1f1;
     text-decoration: none;
 }
 
 
 
-#footer .site-footer .btn-icon {
+.btn-icon {
     display: inline-block;
     text-align: center;
     border-radius: 4px;
@@ -3232,32 +3232,33 @@ footer .site-footer-links  ul {
     line-height: 30px;
 }
 
-#footer .site-footer .btn-icon a {
+.btn-icon a {
     margin-right: 5px;
     background-color: #384453;
     color: #b3b3b3;
 }
 
 
-#footer .site-footer .btn-icon a:hover, #footer .site-footer .btn-icon a:focus, #footer .site-footer .btn-icon a:active {
+.btn-icon a:hover, .btn-icon a:focus, .btn-icon a:active {
     color: #f1f1f1;
     text-decoration: none;
 }
 
 
-#footer .site-footer-logo {
+.site-footer-logo {
 	    display: block;
     margin: 0px auto;
 	vertical-align:middle;
 	    text-align: center;
 }
 
-#footer .site-footer-logo mg{
+.site-footer-logo img{
 	    display: block;
     margin: 0px auto;
 	vertical-align:middle;
 	    text-align: center;
 }
+
 
 #footer .site-footer-container {
     margin-top: 5px;
