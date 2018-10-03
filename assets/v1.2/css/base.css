@@ -2871,10 +2871,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .tp--footer .tp--social {
-  margin-top: 2em;
+  margin-top: 0.5em;
+  font-size: 1.3em;	
 }
 
-.tp--footer .icon {
+.tp--footer a.icon {
   font-size: 1.3em;
   margin: 1.5em 0.75em 0;
 }
