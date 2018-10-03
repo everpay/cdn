@@ -2810,6 +2810,105 @@ svg:not(:root) {
   }
 }
 
+
+
+.g-text-height-md {
+    line-height: 24px;
+}
+
+.content-md {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.g-bg-dark-green1, .g-bg-dark-green2 {
+    color: #fcfcfc;
+}
+
+h2, .h2 {
+    letter-spacing: 2px;
+}
+
+
+.color-light {
+    color: #ffffff;
+}
+
+/* --------------------------------------------------
+	[. Steps v1]
+----------------------------------------------------  */
+.tp--steps-v1 {
+	position: relative;
+	padding: 25px 25px 25px 80px;
+}
+
+/* Step v1 Spaces */
+.tp--steps-v1--lspace,
+.tp--steps-v1--rspace {
+	padding-left: 50px;
+}
+
+@media (min-width: 992px) {
+	.tp--steps-v1--rspace {
+		padding-right: 0;
+	}
+}
+
+/* Step v1 Block */
+.tp--steps-v1__block {
+	top: 50%;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	position: absolute;
+	background: #185f4b;
+	border: solid 5px #eeeeee;
+}
+
+/* Step v1 Icon */
+.tp--steps-v1__icon  {
+	top: 25px;
+	left: 25px;
+	color: #fff;
+	font-size: 40px;
+	position: absolute;
+}
+
+.tp--steps-v1:hover .tp--steps-v1__icon {
+	visibility: hidden;
+}
+
+/* Step v1 Image */
+.tp--steps-v1__img {
+	width: 80px;
+	height: 80px;
+	margin-top: 5px!important;
+	margin-left: 5px!important;
+	opacity: 0;
+	transition: all .3s;
+}
+
+.tp--steps-v1:hover .tp--steps-v1__img {
+	opacity: 1;
+}
+
+/* --------------------------------------------------
+	[. Steps v2]
+----------------------------------------------------  */
+.tp--steps-v2__block {
+	padding: 20px;
+	border-left: solid 3px #3949a0;
+	transition: all .1s ease-out;
+}
+
+.tp--steps-v2__block:hover {
+	border-color: #fff;
+}
+
+
+
+
 .tp--footer {
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+65,ededed+100 */
 background: #ffffff; /* Old browsers */
