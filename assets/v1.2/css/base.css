@@ -2217,9 +2217,12 @@ blockquote.blockquote-large {
 }
 
 .tp--footer {
-  background: rgb(255,255,255); 
-  background: -moz-linear-gradient(top, #ffffff 0%, ##f7f7f7 47%, #ededed 100%); /* FF3.6-15 */
-  background: -moz-linear-gradient(top, rgb(255,255,255) 0%, rgb(246,246,246) 47%, rgb(237,237,237) 100%); 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+65,ededed+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 65%, #f7f7f7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 65%,#f7f7f7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 65%,#f7f7f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
   padding-top: 5em;
   padding-bottom: 0em;
 }
