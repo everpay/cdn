@@ -1954,11 +1954,11 @@ blockquote.blockquote-large {
 }
 
 .tp--diagonal.tp--diagonal-1:before {
-  -webkit-transform: skewY(-9deg);
-  -moz-transform: skewY(-9deg);
-  -ms-transform: skewY(-9deg);
-  -o-transform: skewY(-9deg);
-  transform: skewY(-9deg);
+  -webkit-transform: skewY(-7deg);
+  -moz-transform: skewY(-7deg);
+  -ms-transform: skewY(-7deg);
+  -o-transform: skewY(-7deg);
+  transform: skewY(-7deg);
 }
 
 .tp--diagonal.tp--diagonal-2:before {
