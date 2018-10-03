@@ -2804,9 +2804,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   margin-bottom: 1em;
 }
 
-.tp--footer p,
-.tp--footer a {
+.tp--footer p {
   font-size: 0.9em;
+  margin-right: 10px;
+  color: #7d8a93;
+}
+
+.tp--footer a {
+  font-size: 0.85em;
   margin-right: 10px;
   color: #7d8a93;
 }
