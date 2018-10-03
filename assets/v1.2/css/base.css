@@ -3103,7 +3103,7 @@ footer .site-footer-links  ul {
 .tp--footer.tp--footer-1 ul.site-footer-links {
 	list-style: none;
 	display: inline-block;
-	margin-bottom: 2em!important;
+	margin-bottom: 1.25em!important;
 	padding-top: 1.1em;
 	text-align: center;
 }
@@ -3111,7 +3111,7 @@ footer .site-footer-links  ul {
 #footer #legal {
 	margin-top: 1em;
 	background-color: #000;
-		color: #EEEEEE;
+	color: #EEEEEE;
 }
 
 
@@ -3318,20 +3318,17 @@ footer .site-footer-links  ul {
 }
 
 .cpl-link0 {
-	padding-left: 10px!important;
     padding-right: 10px;
 	font-size: 12px;
 }
 
 .cpl-link1 {
-	border-right: 1px solid #e2e2e3;
    padding-left: 10px!important;
     padding-right: 10px;
 		font-size: 12px;
 }
 
 .cpl-link2 {
-    border-right: 1px solid #e2e2e3;
     padding-left: 10px!important;
     padding-right: 10px;
     font-size: 12px;
