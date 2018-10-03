@@ -2223,7 +2223,7 @@ background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 65%, #f7f7f7 100%); /*
 background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 65%,#f7f7f7 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 65%,#f7f7f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
-  padding-top: 5em;
+  padding-top: 9em;
   padding-bottom: 0em;
 }
 
