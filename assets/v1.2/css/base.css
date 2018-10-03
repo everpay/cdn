@@ -611,14 +611,14 @@ blockquote.blockquote-large {
     font-family: inherit;
     font-size: 14px;
     cursor: pointer;
-    padding: 12px 23px;
+    padding: 7.85px 18px;
     display: inline-block;
     margin: 0 10px 10px 0;
-    text-transform: uppercase;
+    text-transform: none;
     text-decoration: none;
     letter-spacing: 1px;
     position: relative;
-    border-radius: 5px;
+    border-radius: 50px;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -633,6 +633,37 @@ blockquote.blockquote-large {
 	border:2px solid #1ec89a;
 	background-color: #1ec89a;
 	box-shadow: none;
+}
+
+.btn-subscribe {
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 7.85px 18px;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+    border-radius: 50px;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.btn-subscribe.dark {
+	box-shadow: none;
+	text-decoration: none;
+	background-color: #313a43;
+}
+.btn-subscribe.dark:hover,
+.btn-subscribe.dark:focus,
+.btn-subscribe.dark:active {
+	top: 0;
+	background-color: #1A1F23;
+	text-decoration: none;
+	border:2px solid #1A1F23;
 }
 
 .btn-store.outline {
