@@ -1946,7 +1946,7 @@ blockquote.blockquote-large {
   top: 0;
   overflow: visible;
   width: 100%;
-  height: 100%;
+  height: 75%;
   background: #f7f7f7;
   z-index: -1;
   -webkit-backface-visibility: hidden;
@@ -2217,7 +2217,9 @@ blockquote.blockquote-large {
 }
 
 .tp--footer {
-  background: #f7f7f7;
+  background: rgb(255,255,255); 
+  background: -moz-linear-gradient(top, #ffffff 0%, ##f7f7f7 47%, #ededed 100%); /* FF3.6-15 */
+  background: -moz-linear-gradient(top, rgb(255,255,255) 0%, rgb(246,246,246) 47%, rgb(237,237,237) 100%); 
   padding-top: 5em;
   padding-bottom: 0em;
 }
