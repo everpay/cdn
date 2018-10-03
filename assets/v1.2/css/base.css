@@ -2217,7 +2217,7 @@ blockquote.blockquote-large {
 }
 
 .tp--footer {
-  background: white;
+  background: #f7f7f7!important;
   padding: 5em 0;
 }
 
