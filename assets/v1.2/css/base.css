@@ -2792,7 +2792,6 @@ footer .footer-icon-links li:hover a:before {
 	width: 99%;	
     font-size: 12px;
     display: inline;
-	color: #ffffff;
 }
 
 footer p.copyright a {
@@ -2800,7 +2799,7 @@ footer p.copyright a {
 }
 
 #footer .copyright a:hover {
-	color: #fff;
+	color: #000000;
 }
 
 footer p.copyright span.sponsor-line {
@@ -3043,8 +3042,7 @@ footer .site-footer-links  ul {
 
 #footer .site-footer-container {
     margin-top: 5px;
-	padding-bottom:1px;
-	border-top: 0px solid #EEEEEE;
+	padding-bottom:5px;
 }
 
 #footer.site-footer-links {
@@ -3083,8 +3081,7 @@ footer .site-footer-links  ul {
     margin-top: 60px;
     text-align: center;
     position: relative;
-    background-color: #212020;
-    color: #FFF;
+    border-top: 1px solid #dddddd;
     z-index: 99;
     line-height: 40px;
 }
