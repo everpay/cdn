@@ -2898,7 +2898,7 @@ footer .site-footer-links  ul {
 
 #footer ul li {
 	list-style: none;
-	padding: 0;
+	padding: 5px 0px 5px 0px;
 	margin: 0;
 	left:0px;
 	line-height: 20px;
