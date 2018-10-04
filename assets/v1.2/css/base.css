@@ -8048,9 +8048,6 @@ footer .site-footer-links  ul {
     font-size: 24px;
 }
 
-
-
-
 body.modal-open #wrap{
     -webkit-filter: blur(7px);
     -moz-filter: blur(15px);
@@ -8067,9 +8064,17 @@ body.modal-open #wrap{
 }
 
 .close {
+    float: right;
     font-size: 50px;
-    display:block;
+    font-weight: 700;
+    line-height: 1;
+    display:block;	
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 1.2;
 }
+
 
 @media (max-width:768px){
 	#band-cookies p{padding:15px 15px 0}
