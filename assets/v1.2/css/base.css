@@ -3308,6 +3308,11 @@ footer .site-footer-links  ul {
     margin-right: 5px;
     background-color: #384453;
     color: #b3b3b3;
+    font-size: 1.25em!important;
+}
+
+.btn-icon fa {
+    font-size: 1.25em!important;
 }
 
 .btn-icon {
@@ -3315,11 +3320,9 @@ footer .site-footer-links  ul {
     text-align: center;
     border-radius: 50px;
     border: 1px solid #7d8a93;
-    height: 28px;
-    width: 28px;
-    line-height: 26px;
-    font-size: 1.15em!important;
-    margin-right: 4.5px!important;
+    height: 44px;
+    width: 44px;
+    line-height: 42px;
 }
 
 .btn-icons a:hover, .btn-icons a:focus, .btn-icons a:active {
