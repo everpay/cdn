@@ -916,7 +916,7 @@ svg:not(:root) {
 @media (min-width: 992px) {
   .tp--header nav .navbar .nav > li > a {
     font-size: 0.9em;
-    padding: 0 1.5em;
+    padding: 0 1.25em;
   }
 }
 
