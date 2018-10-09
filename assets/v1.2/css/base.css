@@ -3396,12 +3396,12 @@ footer .site-footer-links  ul {
 }
 
 #footer hr {
-margin-top: 20px;
-border-bottom: 2px solid rgba(0,0,0,0.07);
+margin-top: 10px;
+border-bottom: 1px solid rgba(0,0,0,0.07);
 }
 
 #footer .credits {
-    margin-top: 20px;
+    margin-top: 25px;
     text-align: center;
     position: relative;
     border-top: 1px solid #dddddd;
