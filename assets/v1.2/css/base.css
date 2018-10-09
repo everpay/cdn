@@ -3304,26 +3304,6 @@ footer .site-footer-links  ul {
     margin: .5em .2em .5em 0;
 }
 
-.btn-icon a {
-    margin-right: 5px;
-    text-align: center;	
-    background-color: #384453;
-    color: #b3b3b3;
-    font-size: 2.0125em!important;
-}
-
-.btn-icon fa {
-    font-size: 2.0125em!important;
-}
-
-.btn-icon i {
-    font-size: 2.0125em!important;
-}
-
-.tp--footer .tp--social i {
-    font-size: 2.0125em;
-}
-
 .btn-icon {
     display: inline-block;
     text-align: center;
@@ -3331,8 +3311,25 @@ footer .site-footer-links  ul {
     border: 1px solid #7d8a93;
     height: 44px;
     width: 44px;
-    line-height: 42px;
+    line-height: 40px;
 }
+
+.btn-icon a {
+    margin-right: 5px;
+    text-align: center;	
+    background-color: #384453;
+    color: #b3b3b3;
+    font-size: 0.895em!important;
+}
+
+.tp--footer .tp--social .btn-icon i {
+     font-size: 0.895em;
+}
+
+.tp--footer .tp--social i {
+     font-size: 0.895em!important;
+}
+
 
 .btn-icons a:hover, .btn-icons a:focus, .btn-icons a:active {
     color: #f1f1f1;
