@@ -3382,7 +3382,7 @@ footer .site-footer-links  ul {
 }
 
 #footer .newsletter-signup {
-	margin-top: 25px;
+    margin-top: 30px;
     position: relative;
 }
 
@@ -3395,10 +3395,13 @@ footer .site-footer-links  ul {
     width: 230px;
 }
 
-
+#footer hr {
+margin-top: 20px;
+border-bottom: 2px solid rgba(0,0,0,0.07);
+}
 
 #footer .credits {
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;
     position: relative;
     border-top: 1px solid #dddddd;
@@ -3408,7 +3411,7 @@ footer .site-footer-links  ul {
 
 .site-footer-container {
     margin-top: 40px;
-	border-bottom: 2px solid rgba(0,0,0,0.07);
+  border-bottom: 2px solid rgba(0,0,0,0.07);
 }
 
 .country-selector-footer {
