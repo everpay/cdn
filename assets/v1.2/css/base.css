@@ -3306,13 +3306,22 @@ footer .site-footer-links  ul {
 
 .btn-icon a {
     margin-right: 5px;
+    text-align: center;	
     background-color: #384453;
     color: #b3b3b3;
-    font-size: 1.25em!important;
+    font-size: 2.0125em!important;
 }
 
 .btn-icon fa {
-    font-size: 1.25em!important;
+    font-size: 2.0125em!important;
+}
+
+.btn-icon i {
+    font-size: 2.0125em!important;
+}
+
+.tp--footer .tp--social i {
+    font-size: 2.0125em;
 }
 
 .btn-icon {
