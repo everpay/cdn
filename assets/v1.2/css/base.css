@@ -6188,7 +6188,7 @@ padding-top: 0.9em;
 	letter-spacing: 1px;
 }
 
-.tp--diagonal-dark-green2:before {
+.tp--diagonal.tp--diagonal-4:before {
     -webkit-transform: skewY(-6deg);
     -moz-transform: skewY(-6deg);
     -ms-transform: skewY(-6deg);
@@ -6196,7 +6196,7 @@ padding-top: 0.9em;
     transform: skewY(-6deg);
 }
 
-.tp--diagonal-dark-green2:before {
+.tp--diagonal-4:before {
     content: '';
     position: absolute;
     left: 0;
