@@ -1540,7 +1540,7 @@ svg:not(:root) {
 }
 
 .tp--header-shrink.shrink {
-  height: 80px !important;
+  height: 60px !important;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
   background-color: white;
 }
@@ -1566,7 +1566,7 @@ svg:not(:root) {
 }
 
 .tp--header-shrink.shrink nav .nav a {
-  line-height: 80px !important;
+  line-height: 60px !important;
   color: #7d8a93 !important;
 }
 
@@ -1575,7 +1575,7 @@ svg:not(:root) {
 }
 
 .tp--header-shrink.shrink .nav-trigger {
-  height: 80px;
+  height: 60px;
 }
 
 .tp--header-shrink.shrink .nav-trigger span {
@@ -6575,7 +6575,7 @@ background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 65%, #f7f7f7 100%); /*
 background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 65%,#f7f7f7 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 65%,#f7f7f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
-  padding-top: 2.5em;
+  padding-top: 4.15em;
   padding-bottom: 0em;
 }
 
