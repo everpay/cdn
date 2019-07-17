@@ -1546,7 +1546,7 @@ svg:not(:root) {
 }
 
 .tp--header-shrink.shrink .logo {
-  line-height: 80px !important;
+  line-height: 70px !important;
 }
 
 .tp--header-shrink.shrink .logo a {
