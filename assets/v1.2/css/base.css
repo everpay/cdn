@@ -12753,3 +12753,255 @@ hr {
     border: 1px solid transparent;
     transition: all 0.2s ease-in-out;
 }
+.badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]) {
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+.badge-pos--top-left {
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.badge-pos--bottom-left {
+  bottom: 0;
+  left: 0;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
+.badge-pos--bottom-right {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translate(50%, 50%);
+          transform: translate(50%, 50%);
+}
+
+/*------------------------------------
+  Badge in Avatar Component
+------------------------------------*/
+/* Default Size Avatar */
+.u-avatar .rounded-circle + .badge-xs.badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]) {
+  -webkit-transform: translate(20%, -20%);
+          transform: translate(20%, -20%);
+}
+
+.u-avatar .rounded-circle + .badge-xs.badge-pos--top-left {
+  -webkit-transform: translate(-20%, -20%);
+          transform: translate(-20%, -20%);
+}
+
+.u-avatar .rounded-circle + .badge-xs.badge-pos--bottom-left {
+  -webkit-transform: translate(-20%, 20%);
+          transform: translate(-20%, 20%);
+}
+
+.u-avatar .rounded-circle + .badge-xs.badge-pos--bottom-right {
+  -webkit-transform: translate(20%, 20%);
+          transform: translate(20%, 20%);
+}
+
+.u-avatar .rounded-circle + .badge-sm.badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]) {
+  -webkit-transform: translate(25%, -25%);
+          transform: translate(25%, -25%);
+}
+
+.u-avatar .rounded-circle + .badge-sm.badge-pos--top-left {
+  -webkit-transform: translate(-25%, -25%);
+          transform: translate(-25%, -25%);
+}
+
+.u-avatar .rounded-circle + .badge-sm.badge-pos--bottom-left {
+  -webkit-transform: translate(-25%, 25%);
+          transform: translate(-25%, 25%);
+}
+
+.u-avatar .rounded-circle + .badge-sm.badge-pos--bottom-right {
+  -webkit-transform: translate(25%, 25%);
+          transform: translate(25%, 25%);
+}
+
+.u-avatar .rounded-circle + .badge-md.badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]) {
+  -webkit-transform: translate(30%, -30%);
+          transform: translate(30%, -30%);
+}
+
+.u-avatar .rounded-circle + .badge-md.badge-pos--top-left {
+  -webkit-transform: translate(-30%, -30%);
+          transform: translate(-30%, -30%);
+}
+
+.u-avatar .rounded-circle + .badge-md.badge-pos--bottom-left {
+  -webkit-transform: translate(-30%, 30%);
+          transform: translate(-30%, 30%);
+}
+
+.u-avatar .rounded-circle + .badge-md.badge-pos--bottom-right {
+  -webkit-transform: translate(30%, 30%);
+          transform: translate(30%, 30%);
+}
+
+/* Small Size Avatar */
+.u-sm-avatar .rounded-circle + .badge-xs.badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]) {
+  -webkit-transform: translate(25%, -25%);
+          transform: translate(25%, -25%);
+}
+
+.u-sm-avatar .rounded-circle + .badge-xs.badge-pos--top-left {
+  -webkit-transform: translate(-25%, -25%);
+          transform: translate(-25%, -25%);
+}
+
+.u-sm-avatar .rounded-circle + .badge-xs.badge-pos--bottom-left {
+  -webkit-transform: translate(-25%, 25%);
+          transform: translate(-25%, 25%);
+}
+
+.u-sm-avatar .rounded-circle + .badge-xs.badge-pos--bottom-right {
+  -webkit-transform: translate(25%, 25%);
+          transform: translate(25%, 25%);
+}
+
+.u-sm-avatar .rounded-circle + .badge-sm.badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]),
+.u-sm-avatar .rounded-circle + .badge-md.badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]) {
+  -webkit-transform: translate(35%, -35%);
+          transform: translate(35%, -35%);
+}
+
+.u-sm-avatar .rounded-circle + .badge-sm.badge-pos--top-left,
+.u-sm-avatar .rounded-circle + .badge-md.badge-pos--top-left {
+  -webkit-transform: translate(-35%, -35%);
+          transform: translate(-35%, -35%);
+}
+
+.u-sm-avatar .rounded-circle + .badge-sm.badge-pos--bottom-left,
+.u-sm-avatar .rounded-circle + .badge-md.badge-pos--bottom-left {
+  -webkit-transform: translate(-35%, 35%);
+          transform: translate(-35%, 35%);
+}
+
+.u-sm-avatar .rounded-circle + .badge-sm.badge-pos--bottom-right,
+.u-sm-avatar .rounded-circle + .badge-md.badge-pos--bottom-right {
+  -webkit-transform: translate(35%, 35%);
+          transform: translate(35%, 35%);
+}
+
+/* Large Size Avatar */
+.u-lg-avatar .rounded-circle + .badge-xs.badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]) {
+  -webkit-transform: translate(-35%, 35%);
+          transform: translate(-35%, 35%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-xs.badge-pos--top-left {
+  -webkit-transform: translate(35%, 35%);
+          transform: translate(35%, 35%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-xs.badge-pos--bottom-left {
+  -webkit-transform: translate(35%, -35%);
+          transform: translate(35%, -35%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-xs.badge-pos--bottom-right {
+  -webkit-transform: translate(-35%, -35%);
+          transform: translate(-35%, -35%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-sm.badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]) {
+  -webkit-transform: translate(-15%, 15%);
+          transform: translate(-15%, 15%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-sm.badge-pos--top-left {
+  -webkit-transform: translate(15%, 15%);
+          transform: translate(15%, 15%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-sm.badge-pos--bottom-left {
+  -webkit-transform: translate(15%, -15%);
+          transform: translate(15%, -15%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-sm.badge-pos--bottom-right {
+  -webkit-transform: translate(-15%, -15%);
+          transform: translate(-15%, -15%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-md.badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]) {
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-md.badge-pos--top-left {
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-md.badge-pos--bottom-left {
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.u-lg-avatar .rounded-circle + .badge-md.badge-pos--bottom-right {
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+.left-0 {
+    left: 0;
+}
+.bottom-0 {
+    bottom: 0;
+}
+.right-0 {
+    right: 0;
+}
+strong {
+  font-weight: 600;
+}
+
+svg {
+  margin-bottom: -0.4375rem;
+  vertical-align: baseline;
+}
+
+table th {
+  font-weight: 600;
+}
+
+.fa, .fas {
+  font-weight: 900;
+}
+.btn:focus, .btn.focus, .btn:not(:disabled):not(.disabled):active:focus, .btn:not(:disabled):not(.disabled).active:focus, .btn:not([disabled]):not(.disabled):active, .btn:not([disabled]):not(.disabled).active {
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.btn:not(:disabled):not(.disabled):active:focus, .btn:not(:disabled):not(.disabled).active:focus,
+.show > .btn.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.custom-select:focus,
+.page-link:focus {
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before,
+.custom-control-input:focus ~ .custom-control-label::before,
+.custom-control-input:active ~ .custom-control-label::before {
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.custom-file-input:focus ~ .custom-file-label {
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+  outline: 0 !important;
+}
+.pr-md-4, .px-md-4 {
+    padding-right: 1.5rem !important;
+}
