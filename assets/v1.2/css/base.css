@@ -12695,3 +12695,61 @@ hr {
     background: rgb(17, 38, 29)!important;
     opacity: 0.9;
 }
+.w-lg-60 {
+    width: 60% !important;
+}
+.w-md-80 {
+    width: 80% !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.mb-6, .my-6 {
+    margin-bottom: 2.5rem !important;
+}
+
+.btn-group > .btn:not(:first-child), .btn-group > .btn-group:not(:first-child) > .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn-group > .btn:not(:first-child), .btn-group > .btn-group:not(:first-child) {
+    margin-left: -1px;
+}
+.btn[href] {
+    cursor: pointer;
+}
+.btn-group-toggle > .btn, .btn-group-toggle > .btn-group > .btn {
+    margin-bottom: 0;
+}
+.btn-group > .btn, .btn-group-vertical > .btn {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.btn-sm-wide {
+    min-width: 8.4375rem;
+}
+.btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    color: #1e2022;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
