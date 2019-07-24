@@ -12746,8 +12746,6 @@ hr {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
     transition: all 0.2s ease-in-out;
 }
 .badge-pos:not([class*="--top-left"]):not([class*="--bottom-left"]):not([class*="--bottom-right"]) {
